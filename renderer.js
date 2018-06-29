@@ -3,5 +3,5 @@
 // All of the Node.js APIs are available in this process.
 
 var version = jQuery.fn.jquery
-var text = '<h2>jQuery version is' + version + '</h2>'
+var text = '<span>jQuery version is ' + version + '</span>'
 jQuery('#version').html(text)
